@@ -1,0 +1,1 @@
+/home/ex/.config/fisherman/shellder/fish_prompt.fish

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu>
+	<menu id="root-menu" label="OpenBox 3">
+		<item label="Mate Terminal">
+			<action name="Execute">
+				<execute>mate-terminal</execute>
+			</action>
+		</item>
+		<item label="Thunar">
+			<action name="Execute">
+				<execute>thunar</execute>
+			</action>
+		</item>
+		<item label="Telegram">
+			<action name="Execute">
+				<execute>telegram-desktop</execute>
+			</action>
+		</item>
+		<menu id="root-menu-12134" label="Google Chrome Beta">
+			<item label="Single tab">
+				<action name="Execute">
+					<execute>google-chrome-beta google.it</execute>
+				</action>
+			</item>
+			<item label="Normal">
+				<action name="Execute">
+					<execute>google-chrome-beta</execute>
+				</action>
+			</item>
+		</menu>
+		<item label="Steam">
+			<action name="Execute">
+				<execute>steam</execute>
+			</action>
+		</item>
+		<item label="Technic Launcher">
+			<action name="Execute">
+				<execute>java -jar ~/TechnicLauncher.jar</execute>
+			</action>
+		</item>
+		<item label="Sublime Text 3">
+			<action name="Execute">
+				<execute>subl3</execute>
+			</action>
+		</item>
+		<item label="jDownloader">
+			<action name="Execute">
+				<execute>jdownloader</execute>
+			</action>
+		</item>
+		<item label="Shutter">
+			<action name="Execute">
+				<execute>shutter</execute>
+			</action>
+		</item>
+		<menu id="root-menu-581517" label="MTP">
+			<item label="Mount">
+				<action name="Execute">
+					<execute>aft-mtp-mount mtp/</execute>
+				</action>
+			</item>
+			<item label="Umount">
+				<action name="Execute">
+					<execute>fusermount -u mtp/</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<separator/>
+		<separator/>
+		<menu id="2" label="Editors">
+			<item label="Sublime Text 3">
+				<action name="Execute">
+					<execute>subl3</execute>
+				</action>
+			</item>
+			<item label="Atom">
+				<action name="Execute">
+					<execute>atom</execute>
+				</action>
+			</item>
+			<item label="Gedit">
+				<action name="Execute">
+					<execute>gedit</execute>
+				</action>
+			</item>
+			<item label="Nano">
+				<action name="Execute">
+					<execute>xterm -e nano</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="6" label="Graphics">
+			<item label="GIMP">
+				<action name="Execute">
+					<execute>gimp</execute>
+				</action>
+			</item>
+			<item label="Feh">
+				<action name="Execute">
+					<execute>feh</execute>
+				</action>
+			</item>
+			<item label="MATE Color Selection">
+				<action name="Execute">
+					<execute>mate-color-select</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="7" label="Multimedia">
+			<item label="Winff - Video Converter">
+				<action name="Execute">
+					<execute>winff</execute>
+				</action>
+			</item>
+			<item label="ncmpcpp">
+				<action name="Execute">
+					<execute>mate-terminal -e ncmpcpp</execute>
+				</action>
+			</item>
+			<item label="ALSA mixer">
+				<action name="Execute">
+					<execute>xterm -e alsamixer</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="5" label="Network">
+			<item label="Transmission">
+				<action name="Execute">
+					<execute>transmission-qt</execute>
+				</action>
+			</item>
+			<item label="Avahi SSH Server Browser">
+				<action name="Execute">
+					<execute>bssh</execute>
+				</action>
+			</item>
+			<item label="Avahi VNC Server Browser">
+				<action name="Execute">
+					<execute>bvnc</execute>
+				</action>
+			</item>
+			<item label="FTP">
+				<action name="Execute">
+					<execute>xterm -e ftp</execute>
+				</action>
+			</item>
+			<item label="Mail">
+				<action name="Execute">
+					<execute>xterm -e mail</execute>
+				</action>
+			</item>
+			<item label="Talk">
+				<action name="Execute">
+					<execute>xterm -e talk</execute>
+				</action>
+			</item>
+			<item label="Telnet">
+				<action name="Execute">
+					<execute>xterm -e telnet</execute>
+				</action>
+			</item>
+			<item label="W3m">
+				<action name="Execute">
+					<execute>xterm -e w3m</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="19" label="Shells">
+			<item label="Tilda">
+				<action name="Execute">
+					<execute>tilda</execute>
+				</action>
+			</item>
+			<item label="GIT">
+				<action name="Execute">
+					<execute>xterm -e git</execute>
+				</action>
+			</item>
+			<item label="MATE Terminal">
+				<action name="Execute">
+					<execute>mate-terminal</execute>
+				</action>
+			</item>
+			<item label="urxvt">
+				<action name="Execute">
+					<execute>urxvt</execute>
+				</action>
+			</item>
+			<item label="urxvt (client)">
+				<action name="Execute">
+					<execute>urxvtc</execute>
+				</action>
+			</item>
+			<item label="urxvt (tabbed)">
+				<action name="Execute">
+					<execute>urxvt-tabbed</execute>
+				</action>
+			</item>
+			<item label="UXTerm">
+				<action name="Execute">
+					<execute>uxterm</execute>
+				</action>
+			</item>
+			<item label="Xterm">
+				<action name="Execute">
+					<execute>xterm</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-18159" label="Developing">
+			<item label="Monodevelop">
+				<action name="Execute">
+					<execute>monodevelop</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="38" label="Utilities">
+			<item label="Fetch">
+				<action name="Execute">
+					<execute>mate-terminal -e fetch</execute>
+				</action>
+			</item>
+			<item label="Thunar">
+				<action name="Execute">
+					<execute>thunar</execute>
+				</action>
+			</item>
+			<item label="Xarchiver">
+				<action name="Execute">
+					<execute>xarchiver</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<menu id="40" label="Openbox">
+			<item label="GTK Theme">
+				<action name="Execute">
+					<execute>lxappearance</execute>
+				</action>
+			</item>
+			<menu id="40-695556" label="Taskbar">
+				<item label="Open">
+					<action name="Execute">
+						<execute>tint2</execute>
+					</action>
+				</item>
+				<item label="Close">
+					<action name="Execute">
+						<execute>kill tint2</execute>
+					</action>
+				</item>
+			</menu>
+			<item label="Menu Configuration">
+				<action name="Execute">
+					<execute>obmenu</execute>
+				</action>
+			</item>
+			<item label="Set Wallpaper">
+				<action name="Execute">
+					<execute>nitrogen</execute>
+				</action>
+			</item>
+			<item label="Autostart config">
+				<action name="Execute">
+					<execute>gedit .config/openbox/autostart</execute>
+				</action>
+			</item>
+			<item label="OpenBox Settings">
+				<action name="Execute">
+					<execute>obconf</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Power Off">
+				<action name="Execute">
+					<execute>systemctl poweroff</execute>
+				</action>
+			</item>
+			<item label="Reboot">
+				<action name="Execute">
+					<execute>systemctl reboot</execute>
+				</action>
+			</item>
+			<item label="Exit">
+				<action name="Exit"/>
+			</item>
+		</menu>
+	</menu>
+</openbox_menu>
