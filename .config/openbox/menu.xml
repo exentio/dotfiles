@@ -53,6 +53,11 @@
 				<execute>shutter</execute>
 			</action>
 		</item>
+		<item label="SSH Access VPS">
+			<action name="Execute">
+				<execute>mate-terminal -e &quot;ssh ex@exentio.sexy&quot;</execute>
+			</action>
+		</item>
 		<menu id="root-menu-581517" label="MTP">
 			<item label="Mount">
 				<action name="Execute">
@@ -91,6 +96,11 @@
 			</item>
 		</menu>
 		<menu id="6" label="Graphics">
+			<item label="Inkscape">
+				<action name="Execute">
+					<execute>inkscape</execute>
+				</action>
+			</item>
 			<item label="GIMP">
 				<action name="Execute">
 					<execute>gimp</execute>

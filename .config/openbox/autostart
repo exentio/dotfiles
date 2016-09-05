@@ -16,6 +16,8 @@
 #
 #xfce-mcs-manager &
 
+# Xorg is an asshole
+setxkbmap us &
 # Composition
 compton -bCG &
 # Background
@@ -33,4 +35,6 @@ jdownloader &
 
 
 # ncmpcpp
+tilda &
+# cava
 tilda &

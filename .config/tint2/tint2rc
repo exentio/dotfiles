@@ -6,52 +6,52 @@
 # Background 1: Panel
 rounded = 0
 border_width = 0
-background_color = #2B303B 100
-border_color = #2B303B 30
-background_color_hover = #2B303B 100
-border_color_hover = #2B303B 30
-background_color_pressed = #2B303B 100
-border_color_pressed = #2B303B 30
+background_color = #173559 100
+border_color = #173559 30
+background_color_hover = #173559 100
+border_color_hover = #173559 30
+background_color_pressed = #173559 100
+border_color_pressed = #173559 30
 
 # Background 2: Default task, Iconified task
 rounded = 0
 border_width = 0
-background_color = #2B303B 100
-border_color = #2B303B 30
-background_color_hover = #2B303B 80
-border_color_hover = #2B303B 44
-background_color_pressed = #2B303B 100
-border_color_pressed = #2B303B 60
+background_color = #173559 100
+border_color = #173559 30
+background_color_hover = #173559 80
+border_color_hover = #173559 44
+background_color_pressed = #173559 100
+border_color_pressed = #173559 60
 
 # Background 3: Active task
 rounded = 0
 border_width = 0
-background_color = #343D46 100
-border_color = #343D46 100
-background_color_hover = #343D46 100
-border_color_hover = #343D46 100
-background_color_pressed = #343D46 100
-border_color_pressed = #343D46 100
+background_color = #203A59 100
+border_color = #203A59 100
+background_color_hover = #203A59 100
+border_color_hover = #203A59 100
+background_color_pressed = #203A59 100
+border_color_pressed = #203A59 100
 
 # Background 4: Urgent task
 rounded = 0
 border_width = 0
-background_color = #343D46 100
-border_color = #343D46 100
-background_color_hover = #343D46 100
-border_color_hover = #343D46 100
-background_color_pressed = #343D46 4
-border_color_pressed = #343D46 100
+background_color = #203A59 100
+border_color = #203A59 100
+background_color_hover = #203A59 100
+border_color_hover = #203A59 100
+background_color_pressed = #203A59 4
+border_color_pressed = #203A59 100
 
 # Background 5: Tooltip
 rounded = 0
 border_width = 0
-background_color = #2B303B 100
-border_color = #2B303B 100
-background_color_hover = #2B303B 100
-border_color_hover = #2B303B 100
-background_color_pressed = #2B303B 100
-border_color_pressed = #2B303B 100
+background_color = #173559 100
+border_color = #173559 100
+background_color_hover = #173559 100
+border_color_hover = #173559 100
+background_color_pressed = #173559 100
+border_color_pressed = #173559 100
 
 #-------------------------------------
 # Panel
@@ -92,8 +92,8 @@ taskbar_name_padding = 4 2
 taskbar_name_background_id = 0
 taskbar_name_active_background_id = 0
 taskbar_name_font = fixed regular 8
-taskbar_name_font_color = #C0C5CE 100
-taskbar_name_active_font_color = #C0C5CE 100
+taskbar_name_font_color = #E3D1D1 100
+taskbar_name_active_font_color = #E3D1D1 100
 taskbar_distribute_size = 0
 taskbar_sort_order = none
 task_align = left
@@ -108,7 +108,7 @@ task_maximum_size = 150 35
 task_padding = 2 2 4
 task_tooltip = 1
 task_font = fixed regular 8
-task_font_color = #C0C5CE 100
+task_font_color = #E3D1D1 100
 task_background_id = 2
 task_active_background_id = 3
 task_urgent_background_id = 4
@@ -150,7 +150,7 @@ time1_timezone =
 time2_timezone =
 time1_font = fixed regular 8
 time2_font = fixed regular 8
-clock_font_color = #C0C5CE 100
+clock_font_color = #E3D1D1 100
 clock_padding = 2 0
 clock_background_id = 0
 clock_tooltip =
@@ -166,7 +166,7 @@ clock_dwheel_command =
 battery_tooltip = 1
 battery_low_status = 10
 battery_low_cmd = notify-send "battery low"
-battery_font_color = #C0C5CE 100
+battery_font_color = #E3D1D1 100
 battery_padding = 1 0
 battery_background_id = 0
 battery_hide = 101
