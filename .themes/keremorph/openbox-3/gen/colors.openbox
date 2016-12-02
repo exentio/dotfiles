@@ -1,9 +1,0 @@
-window.inactive.title.bg.color: #203959
-window.active.title.bg.color: #173559
-window.active.label.text.color: #E3D1D1
-window.inactive.label.text.color: #E3D1D1
-window.*.button.*.image.color:
-menu*.bg.color: #203959
-menu*.text.color: #E3D1D1
-menu.border.color: #203959
-menu.separator.color: #203959
