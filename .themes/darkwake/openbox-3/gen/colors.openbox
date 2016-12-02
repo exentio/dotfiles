@@ -1,0 +1,9 @@
+window.inactive.title.bg.color: #3E495F
+window.active.title.bg.color: #30373D
+window.active.label.text.color: #BEC2A9
+window.inactive.label.text.color: #BEC2A9
+window.*.button.*.image.color:
+menu*.bg.color: #3E495F
+menu*.text.color: #BEC2A9
+menu.border.color: #3E495F
+menu.separator.color: #3E495F
